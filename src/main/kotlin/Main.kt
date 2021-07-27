@@ -1,6 +1,21 @@
 fun main(args: Array<String>) {
-    println("Hello World!")
+    val nombre = ""
 
-    // Try adding program arguments at Run/Debug configuration
-    println("Program arguments: ${args.joinToString()}")
+    if (nombre.isNotEmpty()){
+        println("el largo de la variable nombre es: ${nombre.length}")
+    } else {
+        println("error, la variable esa vacia")
+    }
+
+    val mensaje: String = if (nombre.length > 4){
+        "tu nombre es largo"
+    } else if(nombre.isEmpty()){
+        "Nombre esta vacio"
+    }
+    else {
+        "tienes un nombre corto"
+    }
+
+    println(mensaje)
+
 }
