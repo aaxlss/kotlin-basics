@@ -1,6 +1,13 @@
+const val PI = 3.141516 //constante de tipo variable que nunca cambia. tiempo de compilacion
 fun main(args: Array<String>) {
-    println("Hello World!")
+    var dinero: Int = 10 //variable de lectura y escritora (mutable)
 
-    // Try adding program arguments at Run/Debug configuration
-    println("Program arguments: ${args.joinToString()}")
+    println(dinero)
+
+    dinero = 6
+
+    println(dinero)
+
+    val nombre = "Maria" // variable de solo lectura (no mutable) Tiempo de ejecucion
+
 }
