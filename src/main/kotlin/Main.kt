@@ -8,6 +8,26 @@ fun main(args: Array<String>) {
 
     println(dinero)
 
-    val nombre = "Maria" // variable de solo lectura (no mutable) Tiempo de ejecucion
+    //val nombre = "Maria" // variable de solo lectura (no mutable) Tiempo de ejecucion
 
+
+    val boolean = true
+    val numeroLargo: Long = 3L //soporte para numeros grandes
+    val double: Double = 2.7182 //numeros de tipo flotante largos
+    val float: Float = 2.8f //numeros de tipo flotante
+
+    val primerValor = 20
+    var segundoValor = 10
+
+    var tercerValor = primerValor.minus(segundoValor);
+
+    println(tercerValor)
+
+    val apellido = "Sanchez"
+    val nombre = "axel"
+    val nombreCompleto = nombre + " " + apellido
+    val nombreCompletoAnotherway = "Mi nombre $nombre $apellido"
+
+    println(nombreCompleto)
+    println(nombreCompletoAnotherway)
 }
